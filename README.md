@@ -13,10 +13,9 @@ means that the command is executed as a regular user
 ```  
 means that the command is executed as root (`sudo` or `su`)  
 
-First of all, I recommend running the "testing" branch  
-of Debian, but stretch (or sid) should do fine.  
-If you need instructions on how to upgrade,  
-please check out the upgrading file.  
+This script is for the `testing` branch, currently known  
+as `Buster`, for instructions on updating, read the  
+upgrading file on this repo.  
 
 Okay, to start - you need a minimal install of Debian.  
 That means - no desktop, only the good ol' tty.  
