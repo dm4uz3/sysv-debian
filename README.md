@@ -1,8 +1,17 @@
 # sysv-debian
 
-
 Because Debian is the best distro of them all,  
-why not get rid of systemd?
+why not get rid of systemd?  
+
+Note:  
+```
+$ <command>
+```  
+means that the command is executed as a regular user  
+```
+# <command>
+```  
+means that the command is executed as root (`sudo` or `su`)  
 
 First of all, I recommend running the "testing" branch  
 of Debian, but stretch (or sid) should do fine.  
