@@ -38,7 +38,7 @@ deb-src http://security.debian.org/ stretch/updates main
 ```
 If you want to keep running Debian stable with free software, leave it like  
 this, otherwise, continue reading  
-
+---
 ## non-free
 If you need any firmware packages or non-free software,  
 add `contrib non-free` to every line of your repos, so  
@@ -52,8 +52,8 @@ deb-src http://deb.debian.org/debian stretch-updates main contrib non-free
 deb http://security.debian.org/ stretch/updates main contrib non-free
 deb-src http://security.debian.org/stretch/updates main contrib non-free
 ```  
-
-##mirrors  
+---
+## mirrors  
 
 Debian has quite a bit of them.  
 Replace `http://deb.debian.org/debian` with your mirror of choice  
@@ -61,8 +61,8 @@ This can be
 `http://ftp.de.debian.org/debian`  
 `http://ftp.uk.debian.org/debian`  
 etc.  
-
-##testing  
+---
+## testing  
 
 To use testing, your sources.list should look like this:  
 ```
@@ -73,8 +73,8 @@ deb http://security.debian.org/ testing/updates main
 deb-src http://security.debian.org/testing/updates main
 ```
 Replace `mirror` with a mirror of your choice, add `contrib non-free` if needed  
-
-##unstable  
+---
+## unstable
 
 To use unstable, your sources.list should look like this:
 ```
@@ -82,9 +82,8 @@ deb http://<mirror>/debian unstable main
 deb-src http://<mirror>/debian unstable main
 ```
 Replace `mirror` with a mirror of your choice, add `contrib non-free` if needed  
-
-###After all that editing...  
-
+---
+### After all that editing...  
 upgrade your system  
 ```
 # apt-get update
@@ -94,4 +93,5 @@ and, reboot
 ```
 # reboot
 ```
+---
 That's it. You're good to go.
