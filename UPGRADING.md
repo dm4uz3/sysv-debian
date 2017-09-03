@@ -73,7 +73,7 @@ deb-src http://<mirror>/debian testing main
 deb http://security.debian.org/ testing/updates main
 deb-src http://security.debian.org/testing/updates main
 ```
-Replace `mirror` with a mirror of your choice, add `contrib non-free` if needed  
+Replace `<mirror>` with a mirror of your choice, add `contrib non-free` if needed  
 
 ## unstable
 
@@ -82,7 +82,7 @@ To use unstable, your sources.list should look like this:
 deb http://<mirror>/debian unstable main
 deb-src http://<mirror>/debian unstable main
 ```
-Replace `mirror` with a mirror of your choice, add `contrib non-free` if needed  
+Replace `<mirror>` with a mirror of your choice, add `contrib non-free` if needed  
 
 ### After all that editing...  
 upgrade your system  
