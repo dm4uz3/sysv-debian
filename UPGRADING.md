@@ -88,7 +88,7 @@ Replace `<mirror>` with a mirror of your choice, add `contrib non-free` if neede
 upgrade your system  
 ```
 # apt-get update
-# apt-get upgrade
+# apt-get dist-upgrade
 ```
 and, reboot  
 ```
