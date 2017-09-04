@@ -74,7 +74,7 @@ deb http://<mirror>/debian testing main
 deb-src http://<mirror>/debian testing main
 
 deb http://security.debian.org/ testing/updates main
-deb-src http://security.debian.org/testing/updates main
+deb-src http://security.debian.org/ testing/updates main
 ```
 Replace `<mirror>` with a mirror of your choice, add `contrib non-free` if needed  
 
