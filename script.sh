@@ -1,10 +1,20 @@
 #!/bin/bash
 
-# Run ./systemd-be-gone.sh, reboot, then run ./systemd-be-gone.sh purge
-
 if [[ $1 == "" ]] ; then
-  # Add the nosystemd repo
-  echo -e "deb http://angband.pl/debian/ nosystemd-buster main" > /etc/apt/sources.list.d/nosystemd.list
+  echo "Debian systemd removal"
+  echo "This script is made for two Debian branches"
+  echo "1) Debian stable (stretch)"
+  echo "2) Debian testing (buster)"
+  echo -n "Your choice: "
+  read -n 1 BRANCH
+  if [[ $BRANCH == "1" ]]; then
+      echo -e "deb http://angband.pl/debian/ nosystemd-stretch main" > /etc/apt/sources.list.d/nosystemd.list
+  elif [[ $BRANCH == "2" ]]; then
+      echo -e "deb http://angband.pl/debian/ nosystemd-buster main" > /etc/apt/sources.list.d/nosystemd.list
+  else
+      echo "${BRANCH} isn't a valid branch."
+      exit 1
+  fi
   echo -e 'Package: *\nPin: origin angband.pl\nPin-Priority: 1100\n' > /etc/apt/preferences.d/nosystemd
   echo -e 'Package: libsystemd0\nPin: version *\nPin-Priority: 500\n' >> /etc/apt/preferences.d/nosystemd
   echo -e 'Package: *systemd*\nPin: release *\nPin-Priority: -1\n' >> /etc/apt/preferences.d/nosystemd

@@ -1,74 +1,40 @@
 # sysv-debian
 
-Because Debian is the best distro of them all,  
-why not get rid of systemd?  
+## Intro
 
-Note:  
+Debian is a really good distro, but if stop jobs and bad code  
+annoy you, you will find that it having systemd is annoying.  
+Most people will say that Debian is systemd-dependent  
+that is a lie, this guide will run you through the process  
+of installing `sysvinit` on Debian stretch or buster.  
+
+## Files in the repo
+ 
+`script.sh` - The main script that strips away systemd  
+`LICENSE` - Repo's licenses  
+`UPGRADING.md` - A guide on upgrading Debian and how its mirrors work in general  
+`NETWORKING.md` - A guide on connecting to the internet using Debian with sysvinit  
+`README.md` - This file, explaining what is in the repo  
+`SUDO.md` - A guide on getting sudo to work  
+`SYSVINIT.md` - A guide to strip away systemd  
+
+##Typographical conventions
+
+`this` is how package names and components will be presented  
+```
+this
+```
+is how commands will be represented
 ```
 $ <command>
-```  
-means that the command is executed as a regular user  
+```
+means that the `<command>` should be ran as a regular user  
 ```
 # <command>
-```  
-means that the command is executed as root (`sudo` or `su`)  
+```
+means that the `<command>` should be ran as root  
+(please read the `SUDO.md` file if you don't know what i just said)  
 
-This script is for the `testing` branch, currently known  
-as `Buster`, for instructions on updating, read the  
-upgrading file on this repo.  
-
-Okay, to start - you need a minimal install of Debian.  
-That means - no desktop, only the good ol' tty.  
-If you have any problems connecting to the internet  
-please check the networking file.
-
-Once you have your environment set up (internet, updates) -  
-download the script
-
-```
-$ wget https://voidcat.succ.me.uk/systemd-be-gone.sh
-```
-or
-```
-$ curl https://voidcat.succ.me.uk/systemd-be-gone.sh > systemd-be-gone.sh
-```
-The same script is in this repo.  
-Once it's downloaded, make it executable  
-```
-$ chmod +x systemd-be-gone.sh
-```
-Then, execute it  
-```
-# ./systemd-be-gone.sh
-```
-When it's done, you'll be able to reboot
-```
-# reboot
-```
-Once you've rebooted, run the script again, but with one argument  
-```
-# ./systemd-be-gone.sh purge
-```
-This purges any systemd dependecies and systemd itself.  
-Now, reboot the system
-```
-# reboot
-```
-Once you've rebooted, update your system
-```
-# apt-get update
-# apt-get dist-upgrade
-```
-And reboot one more time.  
-```
-# reboot
-```
-After you've rebooted - you can install a DE by typing  
-```
-# tasksel
-```
-
-### Enjoy your systemd-free Debian!
-
-
+### Source
+[http://without-systemd.org/wiki/index.php/Debian_Stretch](http://without-systemd.org/wiki/index.php/Debian_Stretch)
 

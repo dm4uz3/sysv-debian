@@ -6,6 +6,9 @@ First, choose your branch you want
 `testing` - perfect choice for literally anything, it's stable and has new packages.  
 `unstable` (aka sid) - more up to date than testing, but they allow broken dependiencies  
 
+## BIG notice for unstable
+The no-systemd repo doesn't work under `unstable`(sid)  
+
 Made your choice? Let's continue  
 
 `stable` is what you probably have by default, make sure the ISO you have  
@@ -96,3 +99,4 @@ and, reboot
 ```
 
 That's it. You're good to go.
+
