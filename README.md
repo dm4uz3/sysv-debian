@@ -18,7 +18,7 @@ of installing `sysvinit` on Debian stretch or buster.
 `SUDO.md` - A guide on getting sudo to work  
 `SYSVINIT.md` - A guide to strip away systemd  
 
-##Typographical conventions
+## Typographical conventions
 
 `this` is how package names and components will be presented  
 ```
