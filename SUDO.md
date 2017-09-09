@@ -7,6 +7,7 @@ you know how to read and haven't put in a root password.
 You can either -  
 -> reinstall Debian  
 -> enable `sudo` manually  
+-> cry
 
 ## Enabling sudo manually
 
