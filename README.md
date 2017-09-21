@@ -1,3 +1,14 @@
+# !!! Important !!!
+You can now get the sysvinit Debian ISO, which sets  
+up everything for you during the install, this repo  
+will still stay up for manual sysvinit installation or  
+maintenence of a sysvinit Debian install in general.
+
+### Download the ISO from here: 
+[http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)  
+
+Anyway, here's the original README:  
+
 # sysv-debian
 
 ## Intro
