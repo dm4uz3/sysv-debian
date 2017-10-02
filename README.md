@@ -1,16 +1,13 @@
 # !!! Important !!!
-You can now get the sysvinit Debian ISO, which sets  
-up everything for you during the install, this repo  
-will still stay up for manual sysvinit installation or  
-maintenence of a sysvinit Debian install in general.
+You can now get the sysvinit Debian ISO, which sets up everything for you during the install, this repo will still stay up for manual sysvinit installation or maintenence of a sysvinit Debian install in general.  
 
 ### Download the ISO from here: 
-[http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)
-or here:
-[https://goo.gl/9oAECv](https://goo.gl/9oAECv)
-or here:
-[https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso](https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso)
-And verify your hashes, kids: `2bcf30c1652e6117f353a2835ee9b8f50a78acf63bb7a97a56a479b20bdd7396` (sha256sum)
+[http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)  
+or here:  
+[https://goo.gl/9oAECv](https://goo.gl/9oAECv)  
+or here:  
+[https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso](https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso)  
+And verify your hashes, kids: `2bcf30c1652e6117f353a2835ee9b8f50a78acf63bb7a97a56a479b20bdd7396` (sha256sum)  
 
 Anyway, here's the original README:  
 
@@ -18,11 +15,8 @@ Anyway, here's the original README:
 
 ## Intro
 
-Debian is a really good distro, but if stop jobs and bad code  
-annoy you, you will find that it having systemd is annoying.  
-Most people will say that Debian is systemd-dependent  
-that is a lie, this guide will run you through the process  
-of installing `sysvinit` on Debian stretch or buster.  
+Debian is a really good distro, but if stop jobs and bad code annoy you, you will find that it having systemd is annoying.  
+Most people will say that Debian is systemd-dependent. That is a lie, this guide will run you through the process of installing `sysvinit` on Debian stretch or buster.  
 
 ## Files in the repo
  
