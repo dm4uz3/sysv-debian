@@ -5,7 +5,12 @@ will still stay up for manual sysvinit installation or
 maintenence of a sysvinit Debian install in general.
 
 ### Download the ISO from here: 
-[http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)  
+[http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)
+or here:
+[https://goo.gl/9oAECv](https://goo.gl/9oAECv)
+or here:
+[https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso](https://pls.succ.me.uk/downloads/Operating%20Systems/Linux/debian-buster-sysvinit.iso)
+And verify your hashes, kids: `2bcf30c1652e6117f353a2835ee9b8f50a78acf63bb7a97a56a479b20bdd7396` (sha256sum)
 
 Anyway, here's the original README:  
 
