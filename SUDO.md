@@ -1,23 +1,20 @@
 # sudo
 
-If you're completely new - once you install Debian,  
-you'll find out that `sudo` doesn't work, unless  
-you know how to read and haven't put in a root password.  
+If you're completely new - once you install Debian, you'll find out that `sudo` doesn't work, unless you know how to read and haven't put in a root password.  
 ![sudo](https://national-shitposting.agency/i/hbqnsm.png)  
 You can either -  
--> reinstall Debian  
--> enable `sudo` manually  
--> cry
+* reinstall Debian  
+* enable `sudo` manually  
+* cry
 
 ## Enabling sudo manually
 
-First, you need to have `sudo` installed  
+First, you need to have `sudo` installed.  
 Use
 ```
 $ su
 ```
-to become root (use the root's password here)  
-and install `sudo` by using  
+to become root (use the root's password here) and install `sudo` by using  
 ```
 # apt-get update
 # apt-get install -y sudo
