@@ -1,16 +1,13 @@
 # sysv-debian
 
-Okay, to start - you need a minimal install of Debian.  
-That means - no desktop, only the good ol' tty.  
-If you have any problems connecting to the internet  
-please check [NETWORKING.md](NETWORKING.md)
+Okay, to start - you need a minimal install of Debian. That means - no desktop, only the good ol' tty.  
 
-This will only work for Debian testing and stable,  
-check out [UPGRADING.md](UPGRADING.md) for more info.  
+If you have any problems connecting to the internet please check [NETWORKING.md](NETWORKING.md)
 
-Once you have your environment set up (internet, updates) -  
-download the script
+This will only work for Debian testing and stable, check out [UPGRADING.md](UPGRADING.md) for more info.  
 
+Once you have your environment set up (internet, updates):  
+Download the script with  
 ```
 $ wget https://voidcat.succ.me.uk/systemd-be-gone.sh
 ```
@@ -35,9 +32,7 @@ This script is made for two Debian branches
 2) Debian testing (buster)
 Your choice: 
 ```
-Use numbers `1` or `2` to select the `stable` or `testing` branches  
-Then the script will add a no-systemd repo and make you boot with  
-sysvinit. After it's done, reboot your system:  
+Use numbers `1` or `2` to select the `stable` or `testing` branches. Then the script will add a no-systemd repo and make you boot with sysvinit. After it's done, reboot your system:  
 ```
 # reboot
 ```
@@ -65,6 +60,3 @@ After you've rebooted - you can install a DE by typing
 ```
 
 ### Enjoy your systemd-free Debian!
-
-
-
