@@ -5,13 +5,19 @@ First, choose your branch you want
 `stable` - mostly for servers, can be used on desktops if stability is your #1 priority  
 `testing` - perfect choice for literally anything, it's stable and has new packages.  
 `unstable` (aka sid) - more up to date than testing, but they allow broken dependencies  
+`experimental` - not really a repo, but an another layer of software that is bleeding edge (Linux RCs, Firefox beta, etc.)  
 
-## BIG notice for unstable
+## BIG notice for unstable (sid)
 The no-systemd repo doesn't work under `unstable`(sid)  
 
 Made your choice? Let's continue  
 
 `stable` is what you probably have by default, make sure the ISO you have has `9.x` on it, if it's `8.x`, you chose Jessie, that's `oldstable` and a bad idea to run.  
+
+## Upgrading from Jessie or older versions
+Follow the instructions of editing the `sources.list` file below, and do an update and a dist-upgrade.  
+Also - a notice for general upgrading, it's preferred that you update gradually, aka, don't do `stable -> unstable`, do `stable -> testing -> unstable`  
+  
 
 `stable` and `testing` have security updates.  
 
@@ -77,6 +83,24 @@ deb http://<mirror>/debian unstable main
 deb-src http://<mirror>/debian unstable main
 ```
 Replace `<mirror>` with a mirror of your choice, add `contrib non-free` if needed  
+
+## experimental
+
+To use experimental, append this to your sources.list file:  
+```
+deb http://<mirror>/debian experimental main
+```
+And it should look like this (example: use with testing):
+```
+deb http://ftp.de.debian.org/debian testing main
+deb-src http://ftp.de.debian.org/debian testing main
+
+deb http://security.debian.org/ testing/updates main
+deb-src http://security.debian.org/ testing/updates main
+
+deb http://ftp.de.debian.org/debian experimental main
+```
+To download software using experimental use `apt-get -t experimental`  
 
 ### After all that editing...  
 upgrade your system  
