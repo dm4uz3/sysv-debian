@@ -5,9 +5,8 @@ You can now get the sysvinit Debian ISO, which sets up everything for you during
 [http://echidnaos.org/downloads/debian-buster-sysvinit.iso](http://echidnaos.org/downloads/debian-buster-sysvinit.iso)  
 or here:  
 [https://goo.gl/9oAECv](https://goo.gl/9oAECv)  
-or here:  
-[https://plssucc.ams3.digitaloceanspaces.com/Operating%20Systems/Linux/debian-buster-sysvinit.iso](https://plssucc.ams3.digitaloceanspaces.com/Operating%20Systems/Linux/debian-buster-sysvinit.iso)  
-And verify your hashes, kids: `2bcf30c1652e6117f353a2835ee9b8f50a78acf63bb7a97a56a479b20bdd7396` (sha256sum)  
+
+And verify your hashes, kids: `2bcf30c1652e6117f353a2835ee9b8f50a78acf63bb7a97a56a479b20bdd7396` (sha256sum) 
 
 Anyway, here's the original README:  
 
