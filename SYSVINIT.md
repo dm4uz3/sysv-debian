@@ -37,7 +37,7 @@ Use numbers `1` or `2` to select the `stable` or `testing` branches. Then the sc
 ```
 Once you've rebooted, run the script again, but with one argument  
 ```
-# ./systemd-be-gone.sh purge
+# ./script.sh purge
 ```
 This purges any systemd dependecies and systemd itself.  
 Now, reboot the system
