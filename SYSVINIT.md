@@ -9,20 +9,19 @@ This will only work for Debian testing and stable, check out [UPGRADING.md](UPGR
 Once you have your environment set up (internet, updates):  
 Download the script with  
 ```
-$ wget https://voidcat.succ.me.uk/systemd-be-gone.sh
+$ wget https://raw.githubusercontent.com/dm4uz3/sysv-debian/master/script.sh
 ```
 or
 ```
-$ curl https://voidcat.succ.me.uk/systemd-be-gone.sh > systemd-be-gone.sh
-```
-The same script is in this repo.  
+$ curl https://raw.githubusercontent.com/dm4uz3/sysv-debian/master/script.sh > script.sh
+```  
 Once it's downloaded, make it executable  
 ```
-$ chmod +x systemd-be-gone.sh
+$ chmod +x script.sh
 ```
 Then, execute it  
 ```
-# ./systemd-be-gone.sh
+# ./script.sh
 ```
 It will spit out this:
 ```
