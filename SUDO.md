@@ -1,7 +1,7 @@
 # sudo
 
 If you're completely new - once you install Debian, you'll find out that `sudo` doesn't work, unless you know how to read and haven't put in a root password.  
-![sudo](https://national-shitposting.agency/i/hbqnsm.png)  
+![sudo](rootpasswd.png)  
 You can either -  
 * reinstall Debian  
 * enable `sudo` manually  
